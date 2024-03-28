@@ -1,0 +1,9 @@
+<header class="h-4 flex justify-center bg-blue-50 items-center">
+    <input 
+    type="text"
+    class="h-8 rounded-full py-4 px-6"  
+    placeholder="search"
+    [formControl]="searchControl" 
+    (keydown.enter)="searchItem()"
+    >
+</header>

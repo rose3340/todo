@@ -19,7 +19,7 @@ export class ImportantComponent {
   ngOnInit(){
     
     this.staetService.searchSubject.subscribe((value)=>{
-      console.log("fdfggvhjbhjbjbnvhhb",value);
+      // console.log("fdfggvhjbhjbjbnvhhb",value);
       if (value){
         
         
